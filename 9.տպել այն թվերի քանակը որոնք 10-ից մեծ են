@@ -6,12 +6,15 @@ public class Main {
         array[2] = 210;
         array[3] = 200;
         array[4] = 300;
-
+      int count =0;
         for (int i = 0; i < array.length; i++) {
             if(array[i]>10){
-               System.out.println(array[i]);
+                count++;
+
             }
 
         }
+
+         System.out.println( count);
     }
 }
