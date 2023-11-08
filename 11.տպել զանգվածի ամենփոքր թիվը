@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+int[]ints= {10,20,30,40,50};
+        int min = Integer.MAX_VALUE;
+        for(int currentValue:ints){
+            if(currentValue <min){
+                min=currentValue;//<--ընթացիկ արժեքը
+            }
+        }
+        System.out.println("min=" + min);
+ }
+    }
+////min=10
